@@ -1,0 +1,50 @@
+@import '_variable';
+.header{
+  margin-top: 20px;
+  margin-left: 20px;
+  .title {
+    font-weight: bold;
+  }
+  .titleSup{
+    background:#66cc66;
+    width:68px;
+    text-align: center;
+    border-radius:9px;
+    color:#ffffff;
+    position:absolute;
+    left:120px;
+    top:22px;
+    font-size:14px;
+    font-weigeht:bold;
+  }
+  p{
+    margin: 0;
+    margin-top: 5px;
+    font-size:14px;
+  }
+  .weather{
+    position:absolute;
+    right:30px;
+    top:40px;
+    img{
+      width:100px;
+    }
+    p{
+      font-size:14px;
+      color:#101010;
+      margin-top:-18px;
+      margin-left: 5px;
+    }
+  }
+}
+
+section{
+  margin-top: 20px;
+  margin-left: 20px;
+  .news{
+    &:before {
+      font-family: 'myfont';
+      content: '\e900';
+    }
+  }
+}
